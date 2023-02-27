@@ -1,0 +1,27 @@
+Kornél:
+	Szombathely
+	Statikus, dinamikus NAT
+	Programozott hálózatkonfiguráció (Jinja, Netmiko vagy valami)
+Pocak:
+	Berlin KOLAX KLÁBELEZÉS
+	Statikus és dinamikus forgi.
+	Linux szerver (FTP, DHCP, HTTP/HTTPS)
+	(ACL)
+Kocsi:
+	Budapest
+	Statikus, dinamikus NAT
+	VPN (GRE tunneling - Berlin -> Budapest)
+	Windows szerver (AD, DNS, DHCP, Szoftvertelepítés)
+	
+Közös:
+	IPv4 (helyi hálózat), IPv6 (Routerek között)
+	3 VLAN
+	Harmadik rétegbeli + második
+	1 vezeték nélküli hálózat + tűzfal
+
+
+
+
+Azure:
+	Poc: Azure beállítás
+	Kornél: Linux szerver (DNS, HTTP/HTTPS, Fájl/nyomtató megosztás, FTP (SSL))
