@@ -25,3 +25,18 @@ Közös:
 Azure:
 	Poc: Azure beállítás
 	Kornél: Linux szerver (DNS, HTTP/HTTPS, Fájl/nyomtató megosztás, FTP (SSL))
+
+
+IP-címek:
+
+Azure: 20.208.140.26 -> automotive.switzerlandnorth.cloudapp.azure.com
+
+Pocak:
+BERLIN A épület (192.168.10.0/24):
+	VLAN 10: 192.168.10.0/26
+	VLAN 11: 192.168.10.64/28
+BERLIN B épület (192.168.20.0/24):
+	VLAN 20: 192.168.20.0/25
+	VLAN 21: 192.168.20.128/26
+	VLAN 22: 192.168.20.192/29
+	
