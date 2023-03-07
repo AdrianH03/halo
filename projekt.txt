@@ -29,12 +29,17 @@ Azure:
 
 IP-címek:
 
+Azure:
+VODAFONE - AZURE: 20.0.0.0/8
+Azure LinuxSRV: 10.4.0.4/16
 Azure: 20.208.140.26 -> automotive.switzerlandnorth.cloudapp.azure.com
+
 
 Pocak:
 BERLIN-BEL1 - BERLIN-BEL2: 192.168.10.80/30
 BERLIN-BEL1 - BERLIN-KÜL: 192.168.10.84/30
 BERLIN-BEL2 - BERLIN-KÜL: 192.168.10.88/30
+BERLIN-KÜL - VODAFONE: 30.0.0.0/8 és 2001:db8:aca1:fe01::/64
 BERLIN A épület (192.168.10.0/24):
 	VLAN 10: 192.168.10.0/26
 	VLAN 11: 192.168.10.64/28
@@ -42,4 +47,11 @@ BERLIN B épület (192.168.20.0/24):
 	VLAN 20: 192.168.20.0/25
 	VLAN 21: 192.168.20.128/26
 	VLAN 22: 192.168.20.192/29
-	
+
+
+Kornél:
+SZOMBATHELY - VODAFONE: 31.0.0.0/8 és 2001:db8:aca1:fe02::/64
+
+
+Kocsii:
+BUDAPEST - VODAFONE: 32.0.0.0/8 és 2001:db8:aca1:fe03::/64
