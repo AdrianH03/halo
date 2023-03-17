@@ -43,8 +43,9 @@ BERLIN A épület (192.168.10.0/24):
 BERLIN B épület (192.168.20.0/24):
 	VLAN 20: 192.168.20.0/25
 	VLAN 21: 192.168.20.128/26
-	VLAN 22: 192.168.20.192/29
-Jelszó: BerlinB1123! és BerlinB2123!
+	VLAN 22: 192.168.20.248/29
+Privilegizált jelszó: BerlinB1123! és BerlinB2123!
+SSH: BerlinB1123! és BerlinB2123!
 Szerver IP: 192.168.20.194/29
 
 
@@ -65,7 +66,6 @@ VLAN 102 - 172.16.100.128/26
 
 Kocsii:
 BUDAPEST - VODAFONE: 32.0.0.0/8 és 2001:db8:aca1:fe03::/64
-
 BUDAPEST - SZOMBATHELY 10.10.10.20/30
 BUDAPEST - BP-BEL1 10.10.10.24/30
 BUDAPEST - BP-BEL2 10.10.10.28/30
@@ -80,6 +80,8 @@ VLAN 32 - 172.16.30.32/28
 SZERVER SZOBA:
 VLAN 33 - 172.16.30.48/29
 WIRELESS NETWORK - 192.168.50.10 - 192.168.50.30/27
+
+Szerver IPv6: 2001:db8:fa10:aa10::fffe/64
 
 ---------------------------------------------------------------
 
