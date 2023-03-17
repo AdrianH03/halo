@@ -1,3 +1,11 @@
+
+DNS IP cím: 32.0.0.10 (Kocsi szerver -> STATIKUS NAT)
+Domain név: automotive.ag.com
+
+--------------------------------------------------------
+
+Feladatok:
+
 Kornél:
 	Szombathely
 	Statikus, dinamikus NAT
@@ -7,7 +15,7 @@ Pocak:
 	Berlin
 	Statikus és dinamikus forgi.
 	Linux szerver (FTP, DHCP, HTTP/HTTPS)
-	(ACL)
+	ASA
 Kocsi:
 	Budapest
 	Statikus, dinamikus NAT
@@ -20,7 +28,7 @@ Közös:
 	Harmadik rétegbeli + második
 	1 vezeték nélküli hálózat + tűzfal
 
-
+--------------------------------------------------------
 
 IP-címek:
 
@@ -36,6 +44,8 @@ BERLIN B épület (192.168.20.0/24):
 	VLAN 20: 192.168.20.0/25
 	VLAN 21: 192.168.20.128/26
 	VLAN 22: 192.168.20.192/29
+Jelszó: BerlinB1123! és BerlinB2123!
+Szerver IP: 192.168.20.194/29
 
 
 Kornél:
@@ -71,7 +81,7 @@ SZERVER SZOBA:
 VLAN 33 - 172.16.30.48/29
 WIRELESS NETWORK - 192.168.50.10 - 192.168.50.30/27
 
-
+---------------------------------------------------------------
 
 
 
