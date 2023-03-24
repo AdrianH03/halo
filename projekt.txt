@@ -20,7 +20,7 @@ Kocsi:
 	Budapest
 	Statikus, dinamikus NAT
 	VPN (GRE tunneling - Berlin -> Budapest)
-	Windows szerver (AD, DNS, DHCP, Szoftvertelepítés)
+	Windows szerver (AD, HTTP/HTTPS, DNS, DHCP, Szoftvertelepítés)
 	
 Közös:
 	IPv4 (helyi hálózat), IPv6 (Routerek között)
