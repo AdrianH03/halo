@@ -1,0 +1,15 @@
+en
+conf t
+int g0/0
+ip nat outside
+int g0/1
+ip nat inside
+int g0/2
+ip nat inside
+ip access-list standard PAT
+permit 172.16.100.0 0.0.0.127
+permit 172.16.100.128 0.0.0.63
+permit 172.16.100.248 0.0.0.7
+ip nat inside source list PAT interface GigabitEthernet0/0 overload
+do copy running-config startup-config
+
