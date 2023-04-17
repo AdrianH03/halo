@@ -62,13 +62,10 @@ SZHELY BEL1 - BEL2: 172.16.0.0/30
 
 HR osztály: 
 VLAN 100 - 172.16.100.0/25
-Biztonsági osztály: 
-VLAN 101 - 172.16.100.248/29
-IT osztály: 
+IT osztály:
+VLAN 101 - 172.16.100.240/28
+Termelés: 
 VLAN 102 - 172.16.100.128/26
-
-IT OSZTÁLY ÚJRASZÁMOLÁS
-172.16.100.240-es hálózat (/28)
 
 HSRP gateway:
 VLAN 100 - 172.16.100.3
