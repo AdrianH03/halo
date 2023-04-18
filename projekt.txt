@@ -77,6 +77,8 @@ BUDAPEST - BP-BEL1 10.10.10.24/30
 BUDAPEST - BP-BEL2 10.10.10.28/30
 BP-BEL1  - BP-PEL2 10.10.10.32/30
 
+Automatizált mentés, kliens számítógépekre szoftver telepítés serverről, (fájl- és nyomtató megosztás)
+
 HR:
 VLAN 30 - 172.16.30.0/28
 PÉNZÜGY:
