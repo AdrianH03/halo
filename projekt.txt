@@ -88,6 +88,8 @@ TERMELÉS:	VLAN 32 - 172.16.30.32/28
 SZERVER SZOBA:	VLAN 33 - 172.16.30.48/29
 WIRELESS NETWORK - 192.168.50.10 - 192.168.50.30/27 SSID Broadcast letiltva
 
+SSH: felhaszn: admin jelszó: Bppassssh123
+
 Szerver IPv6: 2001:db8:fa10:aa10::fffe/64
 
 ---------------------------------------------------------------
