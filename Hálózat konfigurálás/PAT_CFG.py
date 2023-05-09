@@ -3,18 +3,16 @@ from netmiko import ConnectHandler
 # --- Router adatok
 # 
 routerek_adatok = [{
-    'device_type': 'cisco_ios_telnet',
-    'ip': '192.168.51.121',
-    'username': 'admin',
-    'password': 'admin',
-    'port': 23,
+    'device_type': 'cisco_ios',
+    'ip': '172.16.0.5',
+    'username': 'TothBela',
+    'password': 'TothBela_1000',
     },{
-    'device_type': 'cisco_ios_telnet',
-    'ip': '192.168.51.122',
-    'username': 'admin',
-    'password': 'admin',
-    'port': 23,  
-}]
+    'device_type': 'cisco_ios',
+    'ip': '172.16.0.6',
+    'username': 'TothBela',
+    'password': 'TothBela_1000',
+}]  
 routerek = []
 ip = []
 #
@@ -75,11 +73,11 @@ def nat_beallit(n):
     print(f"{ip[n]}: NAT beállítva")
     ment(n)
 #
-# --- A konfigfájlok mentése, illetve a kapcsolatok megszakítása
+# --- Konfiguráció mentése, illetve a kapcsolatok megszakítása
 #    
 def ment(n):
         print(f"{ip[n]}: Konfiguráció mentése folyamatban...")
-        routerek[n].send_command('do write memory')
+        routerek[n].save_config()
         print(f"{ip[n]}: Változtatások sikeresen mentve a konfigfájlba")
         routerek[n].disconnect()    
         print(f"{ip[n]}: Kapcsolat vége")
