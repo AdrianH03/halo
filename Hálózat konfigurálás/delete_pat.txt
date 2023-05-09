@@ -8,3 +8,5 @@ no int gig2/0.101
 no int gig2/0.102
 no ip access-list standard PAT-inside
 no ip nat inside source list PAT-inside interface GigabitEthernet0/0 overload
+do wr
+
